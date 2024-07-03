@@ -1,0 +1,1 @@
+import{u as t}from"./BhrySb4M.js";import{d as a,v as o,H as r,t as n}from"./BWQJyH3i.js";const p=a({__name:"default",setup(s){return t({titleTemplate:"Greatfrontend - %s"}),(e,l)=>(n(),o("div",null,[r(e.$slots,"default")]))}});export{p as default};
