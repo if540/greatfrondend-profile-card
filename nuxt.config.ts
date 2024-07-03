@@ -5,8 +5,14 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/greatfrondend-profile-card/' : '/',
-    buildAssetsDir: '/static/'
+    buildAssetsDir: '/static/',
+    rootAttrs: {
+      id: "app"
+    },
   },
+  css: [
+    "~/assets/reset.css"
+  ],
 
   modules: ["@nuxtjs/tailwindcss"]
 })
